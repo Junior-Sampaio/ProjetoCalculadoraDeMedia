@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de media</title>
+	<link rel="icon" href="public/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">Calculadora de média</h1>
+<!--    <img src="https://lottiefiles.com/93797-calculator" class="img-comp" alt=""> -->
+    <p class="page-subtitle">Vamos descobrir se você foi aprovado no semestre atual.</p>
+  </div>
+<!--  Texto para incluir depois no page-subtitle: Preencha os campos abaixo com suas respectivas notas e nós calculamos a média para você ;) -->
+  <div class="form">
+    <label class="titulo-label" for="nota1">Insira a nota da 1ª prova</label><br>
+    <input type="text" id="nota1" size="2" onkeypress="return onlynumber()" maxlength="4"/><br>
+    <label class="titulo-label" for="nota2">Insira a nota da 2ª prova</label><br>
+    <input type="text" id="nota2" size="2" onkeypress="return onlynumber()" maxlength="4"/><br>
+    <label class="titulo-label" for="nota3">Insira a nota da 3ª prova</label><br>
+    <input type="text" id="nota3" size="2" onkeypress="return onlynumber()" maxlength="4"/><br>
+    <label class="titulo-label" for="nota4">Insira a nota da 4ª prova</label><br>
+    <input type="text" id="nota4" size="2" onkeypress="return onlynumber()" maxlength="4"/><br>
+    <button type="submit" onclick="calcularMedia()">Calcular</button>
+  </div>
+
+  <h2 id="resultado"></h2>
+    
+  <footer>Desenvolvido por <a href="https://www.linkedin.com/in/j%C3%BAnior-sampaio-b31442247/" target="_blank">Júnior Sampaio</a></footer>
+
+<script src='main.js'></script>
+</body>
+</html>
