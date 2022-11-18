@@ -1,3 +1,5 @@
+site para acessar o projeto: https://projetocalculadorademedia.pages.dev
+
 CALCULADORA DE MÉDIA
 Este foi o primeiro desafio que realizei quando participei da imersãodev da Alura.
 
